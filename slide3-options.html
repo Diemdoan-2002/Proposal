@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<title>Slide 3 — Chọn thiết kế</title>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600;700;900&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Be Vietnam Pro',system-ui,sans-serif;background:#0D1B2A;color:#fff;padding:40px}
+h1{font-size:32px;font-weight:900;text-align:center;margin-bottom:8px}
+.sub{text-align:center;color:rgba(255,255,255,.5);font-size:14px;margin-bottom:40px}
+.grid{display:flex;flex-direction:column;gap:48px;max-width:1000px;margin:0 auto}
+.option{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:20px;padding:24px;transition:transform .2s}
+.option:hover{transform:scale(1.01)}
+.label{font-size:20px;font-weight:800;margin-bottom:4px;color:#4DB6AC}
+.desc{font-size:13px;color:rgba(255,255,255,.5);margin-bottom:16px}
+.option img{width:100%;border-radius:12px;box-shadow:0 8px 40px rgba(0,0,0,.4)}
+</style>
+</head>
+<body>
+<h1>Slide 3 — Chọn thiết kế</h1>
+<p class="sub">Chọn A, B, hoặc C rồi báo lại cho tôi</p>
+<div class="grid">
+  <div class="option">
+    <div class="label">Option A — Timeline dọc + Mascot lớn</div>
+    <div class="desc">Timeline dọc 8 vấn đề bên trái, mascot koala buồn chiếm vùng lớn bên phải. Phong cách diagnostic report.</div>
+    <img src="slide3_option_a.png" alt="Option A">
+  </div>
+  <div class="option">
+    <div class="label">Option B — Grid 2×4 cards + Mascot nhỏ góc</div>
+    <div class="desc">Grid 2×4 cards toàn slide, mỗi card có icon đỏ + text. Mascot nhỏ góc dưới. McKinsey/BCG consulting style.</div>
+    <img src="slide3_option_b.png" alt="Option B">
+  </div>
+  <div class="option">
+    <div class="label">Option C — Dark mode infographic</div>
+    <div class="desc">Nền tối gradient, icon phát sáng neon đỏ xoay quanh trung tâm. Apple WWDC keynote aesthetic.</div>
+    <img src="slide3_option_c.png" alt="Option C">
+  </div>
+</div>
+</body>
+</html>
